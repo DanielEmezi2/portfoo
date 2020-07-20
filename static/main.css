@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=kavivanar');
+body {
+    background-image: url("nikita-kachanovsky-OVbeSXRk_9E-unsplash.jpg");
+    background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 188vh;
+    background-repeat: no-repeat;
+    font-family: 'kavivanar', cursive;
+    color: lavenderblush;
+    
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+
+ul {
+    display: flex;
+}
+ul li{
+    display: flex;
+    float: left;
+    margin: 2px;
+    padding: 10px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.emeka{
+    float: left;
+    padding-bottom: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+.emeka h2 span{
+    color: deepskyblue;
+}
+.emeka img{
+    float: left;
+}
+.emeka h2 a{
+    color: white;
+    text-decoration: none;
+}
+.emeka h2{
+    float: right;
+}
+
+header {
+    padding-top: 70px;
+    top: 50%;
+    left: 50%;
+
+}
+ul li a{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+
+    
+}
+ul li:hover {
+    /* background-color: white; */
+    color: black;
+    border-radius: 1px;
+    border-color: white;
+}
+ul li a:hover{
+    color: deepskyblue;
+}
+ 
+
+.test {
+    text-align: start;
+    color: white;
+    font-size: 3em;
+    float: left;
+}
+.text {
+    color: deepskyblue;
+}
+.clear{
+    clear: both;
+}
+
+.capability h1 {
+    text-align: center;
+}
+.capability #id {
+    display: flex;
+    
+}
+figure{
+    overflow: hidden;
+}
+#h3 {
+    padding: 20px; 
+    margin: 5px;
+}
+#part{
+    margin: 5px;
+    padding: 20px;
+
+
+}
+#work{
+    margin: 5px;
+    padding: 20px;
+
+} 
+#none{
+    margin: 5px;
+    padding: 20px;
+  
+} 
+#id{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    padding: 20px; 
+    left: 0;
+    animation: 20s slider infinite;
+}
+#id #none,
+#id #part,
+#id #h3 {
+    width: 20%;
+    float: left;
+}
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+}

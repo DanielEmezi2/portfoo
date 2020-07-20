@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css?family=kavivanar');
+body {
+    background-image: url("nikita-kachanovsky-OVbeSXRk_9E-unsplash.jpg");
+    background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    font-family: 'kavivanar', cursive;
+    
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.wrapper {
+    width: 100%;
+    max-width: 680px;
+    margin: 100px auto 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.content{
+    text-align: center;
+}
+.content h1{
+    letter-spacing: 1px;
+    color: white;
+}
+.content p{
+    color: white;
+}
+.form {
+    width: 100%;
+    margin: 25px o;
+}
+
+.top-form,
+.middle-form,
+.bottom-form{
+    width: 100%;
+    min-height: 65px;
+    margin: 10px 0;
+    overflow: hidden;
+}
+.form input[type="email"],
+.form input[type="text"],
+.form input[type="number"],
+.form textarea{
+    padding: 15px 5px;
+    box-sizing: border-box;
+    width: 100%;
+    border: 2px solid #fff;
+    border-radius: 2px;
+    outline: none;
+    transition: all 0.2s ease;
+
+}
+.form input:focus,
+.form textarea:focus{
+    border-color: deepskyblue;
+    box-shadow: inset 0 1px rgba(0,0,0, 0.0125),
+                0 0 8px rgba(76,161,175 0.5);
+}
+.form .label{
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+.top-form .inner-form{
+    width: 29.9%;
+    float: left;
+    margin-right: 5%;
+}
+.top-form .inner-form:last-child{
+    margin-right: 0;
+
+}
+.middle-form{
+    clear: both;
+}
+.middle-form{
+    clear: both;
+
+}
+.botton-form textarea{
+    height: 120px;
+}
+#send{
+    background: deepskyblue;
+    width: 200px;
+    padding: 10px 0;
+    border-radius: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 5px;
+    cursor: pointer;
+    float: right;
+    
+}
+.head {
+    display: flex;
+}
+#social {
+    float: right;
+    color: deepskyblue;
+}
+#social a{
+    background-color: deepskyblue;
+    background-size: 10px;
+}
+#reset{
+    background: deepskyblue;
+    width: 200px;
+    padding: 10px 0;
+    border-radius: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 5px;
+    cursor: pointer;
+    
+}
+#reset :hover{
+    background-color: deepskyblue;
+}
+::-webkit-input-placeholder{
+    font-family: 'kavivanar', cursive;
+    text-transform: capitalize;
+}
+::-moz-input-placeholder{
+    font-family: 'kavivanar', cursive;
+    text-transform: capitalize;
+}
+::-ms-input-placeholder{
+    font-family: 'kavivanar', cursive;
+    text-transform: capitalize;
+}
+
+
+
+
+ul {
+    display: flex;
+}
+ul li{
+    display: flex;
+    float: right;
+    margin: 2px;
+    padding: 10px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.emeka{
+    float: left;
+    padding-bottom: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+.emeka img{
+    float: left;
+}
+.emeka h2 span{
+    color: deepskyblue;
+}
+.emeka h2{
+    float: right;
+}
+.emeka h2 a{
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    padding-top: 70px;
+    top: 50%;
+    left: 50%;
+
+}
+ul li a{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+
+    
+}
+ul li a :active{
+    color: deepskyblue;
+}
+ul li:hover {
+    /* background-color: white; */
+    color: black;
+    border-radius: 1px;
+    border-color: white;
+}
+ul li a:hover{
+    color: deepskyblue;
+}
+ 
+
+.test {
+    text-align: start;
+    color: white;
+    font-size: 3em;
+    float: left;
+}
+.text {
+    color: deepskyblue;
+}
+.clear{
+    clear: both;
+}
+@media screen and (max-width: 460px){
+    .wrapper{
+        margin: 25px auto 0;
+    }
+    .top-form .inner-form{
+        width: 100%;
+        margin: 5px 0;
+    }
+
+}
+@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy");
+
+
+
+.wordCarousel {
+    font-size: 50px;
+    font-weight: 100;
+    color: #939393;
+}
+    .word {
+        overflow: hidden;
+        position: relative;
+        height: 65px;
+        padding-top: 10px;
+        margin-top: -10px;
+    }
+        li {
+            font-family: Serif;
+            color: #ccc;
+            font-weight: 700;
+            padding: 0 10px;
+            height: 45px;
+            margin-bottom: 45px;
+            display: block;
+        }
+    
+
+
+.flip2 { animation: flip2 6s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
+.flip3 { animation: flip3 8s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
+.flip4 { animation: flip4 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
+
+@keyframes flip2 {
+    0% { margin-top: -180px; }
+    5% { margin-top: -90px;  }
+    50% { margin-top: -90px; }
+    55% { margin-top: 0px; }
+    99.99% { margin-top: 0px; }
+    100% { margin-top: -270px; }
+}
+
+@keyframes flip3 {
+    0% { margin-top: -270px; }
+    5% { margin-top: -180px; }
+    33% { margin-top: -180px; }
+    38% { margin-top: -90px; }
+    66% { margin-top: -90px; }
+    71% { margin-top: 0px; }
+    99.99% { margin-top: 0px; }
+    100% { margin-top: -270px; }
+}
+
+@keyframes flip4 {
+    0% { margin-top: -360px; }
+    5% { margin-top: -270px; }
+    25% { margin-top: -270px; }
+    30% { margin-top: -180px; }
+    50% { margin-top: -180px; }
+    55% { margin-top: -90px; }
+    75% { margin-top: -90px; }
+    80% { margin-top: 0px; }
+    99.99% { margin-top: 0px; }
+    100% { margin-top: -270px; }
+}
